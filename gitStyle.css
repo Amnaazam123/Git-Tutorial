@@ -48,8 +48,10 @@ ul{
     text-decoration: underline;
     color: #fff03f;
 }
-.initHeading{
-    color: #fff03f;
+.initHeading {
+    color: black;
+    background-color: #fff03f;
+    text-align: center;
 }
 
 
