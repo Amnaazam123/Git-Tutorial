@@ -35,3 +35,8 @@ hr{
 ul{
     margin-left: 35px;
 }
+.cmds{
+    width: 75%;
+    float: right;
+    margin-top: 5%;
+}
