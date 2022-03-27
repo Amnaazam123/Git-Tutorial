@@ -13,7 +13,7 @@
     width: 80%;
     margin: auto;
     background-color: black;
-    padding: 20px;
+    padding: 10%;
     overflow: hidden;
 }
 hr{
@@ -40,3 +40,17 @@ ul{
     float: right;
     margin-top: 5%;
 }
+.initimg{
+    border: 2px solid #fff03f;
+    margin-left: 2%;
+}
+.ins{
+    text-decoration: underline;
+    color: #fff03f;
+}
+.initHeading{
+    color: #fff03f;
+}
+
+
+
