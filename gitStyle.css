@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana,sans-serif;
+    line-height: 1.5;
+    color: white;
+}
+.name,.rollno{
+    text-align: center;
+    color: #fff03f;
+}
+.main{
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    padding: 20px;
+    overflow: hidden;
+}
+hr{
+    height: 3px;
+}
+.tutorial{
+    font-size: 20px;
+    color: #fff03f;
+}
+.intro-image{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 40%;
+    float: right;
+}
+.para{
+    font-size: 15px;
+}
+ul{
+    margin-left: 35px;
+}
