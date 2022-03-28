@@ -109,7 +109,7 @@
         <img src="images/git-fetch.png" alt="" class="initimg">
 
         <br><br><br>
-        <h2 class="initHeading">6 - git clone</h2>
+        <h2 class="initHeading">6 - git clone [url]</h2>
         <p>&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The "clone" command downloads or make a copy of an existing Git repository to your local computer.
              In this command, you specifies the URL of the remote repository which you want to clone and
               the name of the folder on your local machine where the repository will be downloaded into but it is optional.
@@ -193,11 +193,17 @@
 
                 <br><br><br>
             <h2 class="initHeading">14 - git diff </h2>
-            <p>This command compares the working tree with staging area.It will show the differce of the 
-                works which you have in staged area and after staginging what you have done. 
+            <p>This command compares the working tree with staging area. It is the diff of what is changed but not staged.
             </p>
                 <br>
                 <img src="images/git-diff.png" alt="">
+
+                <br><br><br>
+                <h2 class="initHeading">14 - git diff --staged</h2>
+                <p>This commands shows difference of what is staged but not yet commited.
+                </p>
+                    <br>
+                    <img src="images/git-diff-staged.png" alt="">
 
 
                 <br><br><br>
@@ -207,7 +213,14 @@
                     Merging remote upstream changes into your local repository is a common task in Git-based collaboration work flows.
                 </p>
                     <br>
-                    <img src="images/git-diff.png" alt="">
+                    <img src="images/git-pull.png" alt="">
+
+                    <br><br><br>
+                    <h2 class="initHeading">16 - git reset </h2>
+                    <p>This command unstage a file while retaining the changes in working directory.</p>
+                    <p>Here firstly files were in staged area but after this git reset command, all the files go in untracked area.</p>
+                        <br>
+                        <img src="images/git-reset.png" alt="">
 
 
 
