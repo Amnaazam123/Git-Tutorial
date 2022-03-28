@@ -23,7 +23,7 @@
         <img src="https://assets-global.website-files.com/5d514fd9493b0575f03520bd/5d664e055e626f58c6282c5a_10-git-commands-1648x824.jpg" alt="" class="cmds">
         <p>The commands are given below:</p>
         <ol class="myList">
-            <li>git init</li>
+            <li><a href="#init" title="See git init command">git init</a></li>
             <li>git add</li>
             <li>git status</li>
             <li>git push</li>
@@ -45,7 +45,7 @@
         </ol>
         <br><br>
         <p class="ins">Before proceeding, You must open command prompt in your directory and enter following commands: </p><br>
-        <h2 class="initHeading">1 - git init</h2>
+        <h2 class="initHeading" id="init">1 - git init</h2>
         <p>&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The git init command creates a new Git repository. To initialize a repository,
              Git creates a hidden directory called . git . That directory stores all of the objects and refs that
               Git uses and creates as a part of your project's history.
@@ -54,7 +54,7 @@
         <img src="images/git-init.png" alt="" class="initimg">
 
         <br><br><br>
-        <h2 class="initHeading">2 - git status</h2>
+        <h2 class="initHeading" id="status">2 - git status</h2>
         <p>&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The git status command displays the state of the working directory and
              the staging area. It lets you see which changes have been staged, which haven't, and
               which files aren't being tracked by Git.
@@ -73,7 +73,7 @@
         <img src="images/update.jpg" alt="" class="initimg">
 
         <br><br><br>
-        <h2 class="initHeading">3 - git add</h2>
+        <h2 class="initHeading" id="add">3 - git add</h2>
         <p>&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The git add command adds a change in the working directory to the staging area. 
             It tells Git that you want to include updates to a particular file in the next commit. 
             However, git add doesn't really affect the repository in any significant way
@@ -85,7 +85,7 @@
         <img src="images/git-add-all.png" alt="add all image" class="initimg">
 
         <br><br><br>
-        <h2 class="initHeading">4 - git push</h2>
+        <h2 class="initHeading" id="push">4 - git push</h2>
         <p>&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The git push command is used to upload local repository content to a remote repository. 
             Pushing is how you transfer commits from your local repository to a remote repo. Before pushing the content, you must all commit before
              and there should not be changes from your remote repository. You will have to pull them before.</p><br>
@@ -99,7 +99,7 @@
         <img src="images/git-push-sec.jpg" alt="" class="initimg">
 
         <br><br><br>
-        <h2 class="initHeading">5 - git fetch</h2>
+        <h2 class="initHeading" id="fetch">5 - git fetch</h2>
         <p>&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The git fetch command is used to download the contents from a remote repository into local repository.
              It is the command that tells your local git to retrieve the latest meta-data info from the original (yet doesn't do any file transferring.
              It's more like just checking to see if there are any changes available). It is the safer version of git pull.
@@ -109,7 +109,7 @@
         <img src="images/git-fetch.png" alt="" class="initimg">
 
         <br><br><br>
-        <h2 class="initHeading">6 - git clone [url]</h2>
+        <h2 class="initHeading" id="clone">6 - git clone [url]</h2>
         <p>&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The "clone" command downloads or make a copy of an existing Git repository to your local computer.
              In this command, you specifies the URL of the remote repository which you want to clone and
               the name of the folder on your local machine where the repository will be downloaded into but it is optional.
@@ -123,7 +123,7 @@
         <img src="images/git-clone-folder.png" alt="" class="initimg">
 
         <br><br><br>
-        <h2 class="initHeading">7 - git branch</h2>
+        <h2 class="initHeading" id="branch">7 - git branch</h2>
         <p>&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;This command just displays the names of all the branches in the working repository.
              
         </p><br>
@@ -132,7 +132,7 @@
         <img src="images/git-branch.png" alt="" class="initimg">
 
         <br><br><br>
-        <h2 class="initHeading">8 - git branch myNewBranch</h2>
+        <h2 class="initHeading" id="newBranch">8 - git branch myNewBranch</h2>
         <p>&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;This command is used to create new branch.
              Creating a new branch allows you to isolate your changes from the master branch. 
              If your experimentation goes well you always have the option to merge your changes into the master branch.
@@ -147,7 +147,7 @@
         <p>This will create new branch and will shift to that branch as well.</p>
         <img src="images/git-create-switch.png" alt="create-switch">
         <br><br><br>
-        <h2 class="initHeading">9 - git checkout myNewBranch</h2>
+        <h2 class="initHeading" id="checkout">9 - git checkout myNewBranch</h2>
         <p>&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;This command is used to switch the branch which branch name you mention. 
             Here <span style="color:red">*</span> sign represent the current branch name.
         </p><br>
@@ -158,7 +158,7 @@
 
 
         <br><br><br>
-        <h2 class="initHeading">10 - git merge myTempBranch</h2>
+        <h2 class="initHeading" id="merge">10 - git merge myTempBranch</h2>
         <p>To merge branches locally, use git checkout to switch to the branch you want to merge into. 
             This branch is typically the main branch.
              Next, use git merge and specify the name of the other branch to bring into this branch.</p><br>
@@ -168,11 +168,11 @@
         <img src="images/swtiching-branch.png" alt="" class="initimg">
         
         <br><br><br>
-        <h2 class="initHeading">11 - git clean </h2>
+        <h2 class="initHeading" id="clean">11 - git clean </h2>
         <p>It removes all untracked files from local repository.</p>
 
         <br><br><br>
-        <h2 class="initHeading">12 - git Commit </h2>
+        <h2 class="initHeading" id="commit">12 - git Commit -m ["msg"] </h2>
         <p>The "commit" command is used to save your changes to the local repository. 
             Note that you have to explicitly tell Git which changes you want to include in a commit before running the "git commit" command. 
             This means that a file won't be automatically included in the next commit just because it was changed.</p>
@@ -180,26 +180,26 @@
             <img src="images/git-commit.png" alt="">
 
             <br><br><br>
-        <h2 class="initHeading">13 - git config </h2>
+        <h2 class="initHeading" id="config">13 - git config </h2>
         <p>This command lists all the available options in quite a bit of detail.</p>
             <br>
             <img src="images/git-config.png" alt="">
 
             <br><br><br>
-            <h2 class="initHeading">13 - git log </h2>
+            <h2 class="initHeading" id="log">14 - git log </h2>
             <p>This command displays all the commits you have written in you repository.</p>
                 <br>
                 <img src="images/git-log.png" alt="">
 
                 <br><br><br>
-            <h2 class="initHeading">14 - git diff </h2>
+            <h2 class="initHeading" id="diff">15 - git diff </h2>
             <p>This command compares the working tree with staging area. It is the diff of what is changed but not staged.
             </p>
                 <br>
                 <img src="images/git-diff.png" alt="">
 
                 <br><br><br>
-                <h2 class="initHeading">14 - git diff --staged</h2>
+                <h2 class="initHeading" id="diffStage">16 - git diff --staged</h2>
                 <p>This commands shows difference of what is staged but not yet commited.
                 </p>
                     <br>
@@ -207,7 +207,7 @@
 
 
                 <br><br><br>
-                <h2 class="initHeading">15 - git pull </h2>
+                <h2 class="initHeading" id="pull">17 - git pull </h2>
                 <p>The git pull command is actually a combination of two other commands, git fetch followed by git merge . 
                     The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. 
                     Merging remote upstream changes into your local repository is a common task in Git-based collaboration work flows.
@@ -216,12 +216,21 @@
                     <img src="images/git-pull.png" alt="">
 
                     <br><br><br>
-                    <h2 class="initHeading">16 - git reset </h2>
+                    <h2 class="initHeading" id="reset">18 - git reset </h2>
                     <p>This command unstage a file while retaining the changes in working directory.</p>
                     <p>Here firstly files were in staged area but after this git reset command, all the files go in untracked area.</p>
                         <br>
                         <img src="images/git-reset.png" alt="">
 
+                        <br><br><br>
+                    <h2 class="initHeading" id="remote">19 - git remote add [alias] [url] </h2>
+                    <p>Instead of referencing the repositories by their full URLs, you give alias to your remote repository.</p>
+                    <p>git remote command displays that alias.</p>
+                        <br>
+                        <img src="images/git-remote.png" alt="">
+
+
+        
 
 
     </div>
