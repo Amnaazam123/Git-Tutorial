@@ -36,10 +36,13 @@ hr{
 ul{
     margin-left: 35px;
 }
+li:hover{
+    font-size: x-large;
+}
 .cmds{
-    width: 75%;
+    width: 65%;
     float: right;
-    margin-top: 5%;
+    margin-top: 6%;
 }
 .initimg{
     border: 2px solid #225089;
