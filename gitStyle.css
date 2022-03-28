@@ -3,25 +3,26 @@
     padding: 0px;
     font-family: Verdana,sans-serif;
     line-height: 1.5;
-    color: white;
+    color: black;
 }
 .name,.rollno{
     text-align: center;
-    color: #fff03f;
+    color: #225089;
 }
 .main{
     width: 80%;
     margin: auto;
-    background-color: #343434;;
+    background-color: white;
     padding: 10%;
     overflow: hidden;
 }
 hr{
     height: 3px;
+    background-color: #225089;
 }
 .tutorial{
     font-size: 20px;
-    color: #fff03f;
+    color: #225089;
 }
 .intro-image{
     border: 1px solid black;
@@ -41,16 +42,16 @@ ul{
     margin-top: 5%;
 }
 .initimg{
-    border: 2px solid white;
+    border: 2px solid #225089;
     margin-left: 0%;
 }
 .ins{
     text-decoration: underline;
-    color: #fff03f;
+    color: #225089;
 }
 .initHeading {
-    color: black;
-    background-color: #fff03f;
+    color: white;
+    background-color: #225089;
     text-align: center;
 }
 
