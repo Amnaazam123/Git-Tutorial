@@ -2,4 +2,5 @@
 This is website describing Git commands using HTML and CSS.
 
 
-![site](https://user-images.githubusercontent.com/71166016/160544514-16ea1e3e-8d2c-43db-85c8-f42893d20ef7.jpeg)
+
+![Web capture_30-3-2022_125958_](https://user-images.githubusercontent.com/71166016/160781892-22ddfa3e-48fc-46ea-bf58-15ec91dcd320.jpeg)
